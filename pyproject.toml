@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "indigent"
+version = "0.1.0"
+description = "Render text, tables, progress bars and more to the terminal."
+authors = ["Frank Brehm <frank@brehm-online.com>"]
+readme = "README.md"
+packages = [{include = "indigent", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
