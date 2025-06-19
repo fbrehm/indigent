@@ -8,12 +8,15 @@
 @copyright: © 2025 by Frank Brehm, Berlin
 """
 
+from pathlib import Path
 from typing import Text
 
 __author__: Text = 'Frank Brehm <frank@brehm-online.com>'
 __copyright__: Text = '(C) 2025 by Frank Brehm, Berlin'
 __contact__: Text = 'frank@brehm-online.com'
 __version__: Text = '0.1.0'
+
+PWD_ON_IMPORT = Path.cwd()
 
 
 # =============================================================================
